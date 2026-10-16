@@ -520,37 +520,77 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 63.5) (xy 81.28 76.2)
+			(xy 101.6 63.5) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e15d992-ed46-42fa-aa6e-3a0d4d81f37f")
+		(uuid "115c52d6-9c2b-43b7-bc02-660ff958aa66")
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 68.58 76.2)
+			(xy 73.66 82.55) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62f0b4cc-4969-4aa5-9047-667c033340dc")
+		(uuid "5a4aaed7-c9b7-4ef5-b538-42655f28c6cc")
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 73.66 76.2)
+			(xy 63.5 63.5) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a5bdd7e-b3a7-4d30-abaf-e9524b39148f")
+		(uuid "71488023-0187-4759-9e55-90eea303caa7")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b855f686-16b9-49a7-827d-4ea7359315ee")
+	)
+	(wire
+		(pts
+			(xy 63.5 82.55) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2977cf7-f9df-49ea-b65d-a021c070b946")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 83.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f926bde8-6164-420f-9fb5-98ecc78f1835")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 81.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6474a2-0e43-42b2-8ca0-66da1d43cd09")
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 76.2 76.2 270)
+		(at 76.2 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -559,7 +599,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f9ed35-abaa-4258-9d31-8759fcbecf1f")
 		(property "Reference" "BT1"
-			(at 78.0415 68.58 90)
+			(at 78.0415 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +607,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 78.0415 71.12 90)
+			(at 78.0415 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.724 76.2 90)
+			(at 77.724 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.724 76.2 90)
+			(at 77.724 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +633,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 76.2 76.2 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +642,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 76.2 76.2 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +651,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 76.2 76.2 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +660,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 76.2 76.2 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +685,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 78.74 63.5 90)
+		(at 86.36 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -654,7 +694,7 @@
 		(fields_autoplaced yes)
 		(uuid "79d7ccf4-e7eb-47cd-add0-39208eb3f3dd")
 		(property "Reference" "R1"
-			(at 78.74 58.42 90)
+			(at 86.36 58.42 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -662,7 +702,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 78.74 60.96 90)
+			(at 86.36 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 63.5 0)
+			(at 86.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 63.5 0)
+			(at 86.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +728,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 78.74 63.5 0)
+			(at 86.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
